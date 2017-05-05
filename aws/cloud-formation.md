@@ -15,10 +15,15 @@ CloudFormation template can either written in JSON or YAML. There are DSL build 
 
 ### Concepts
 
-- [Resources](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
+- [Resources](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html) a stacks is a collection of resources, they can be S3 bucket, EC2 instances, API Gateway, IAM Role ... etc
 - [Intrinsic functions](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html)
- - [Ref](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html)
-- [Psuedo Parameters](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html)
+	- [Ref](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html) use reference to get APN to a resource, or get the value of parameter. 
+	- GetAtt - get attributes
+	- FindInMap - find values from a map
+- [Psuedo Parameters](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html) Pseudo Parameters are parameters that are predefined by AWS CloudFormation
+	- AWS::AccountId
+	- AWS::Region
+	- AWS::StackId
 
 ## Deployment
 
