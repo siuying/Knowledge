@@ -8,6 +8,7 @@
 
 ### Papers
 
+- [Operational transformation in real-time group editors: issues, algorithms, and achievements](http://dl.acm.org/citation.cfm?id=289469)
 - [Analysis of Operational Transformation Algorithms](http://link.springer.com/chapter/10.1007/978-81-322-2638-3_2)
 - [Towards a unified theory of Operational Transformation and CRDT](https://medium.com/@raphlinus/towards-a-unified-theory-of-operational-transformation-and-crdt-70485876f72f)
 - [ot-crdt-papers](https://github.com/google/ot-crdt-papers)
@@ -25,7 +26,7 @@
 
 ### Papers
 
-- [ CRDTs: Consistency without concurrency control](https://arxiv.org/abs/0907.0929)
+- [CRDTs: Consistency without concurrency control](https://arxiv.org/abs/0907.0929)
 - [A comprehensive study of Convergent and Commutative Replicated Data Types](http://hal.upmc.fr/docs/00/55/55/88/PDF/techreport.pdf)
 - [Conflict-free Replicated Data Types](https://hal.inria.fr/inria-00609399v1/document)
 
@@ -36,6 +37,7 @@
 
 - [woot](https://github.com/kroky/woot)
 - [woot-js](https://github.com/TGOlson/woot-js)
+- [objc-woot](https://github.com/ansonl/objc-woot)
 
 ### Papers
 
